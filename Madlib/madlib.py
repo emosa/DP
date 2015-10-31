@@ -48,6 +48,7 @@ def madlib():
     print name, "is", 2015 - years, "years old."
     print name, "and", relative, "need to do something today."
 
+    #this will check if it is your or old
     if years < 21:
         print "you guys are to young to", dictionary['hobbie2']
     else:
@@ -55,6 +56,9 @@ def madlib():
     print "you guys should:"
     for string in suggest:
         print string
+    print calculate(distance, time), "you should be tired tomorrow is another day"
+
+madlib()
 
 
 
