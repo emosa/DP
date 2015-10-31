@@ -35,6 +35,9 @@ def madlib():
     #this will ask user for hour number
     time = float(raw_input("How many hours have you been awake today?:"))
 
+    #this story will start printing from here
+    print name, "is", 2015 - years, "years old."
+    print name, "and", relative, "need to do something today."
 
 
 
