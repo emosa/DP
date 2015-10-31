@@ -13,6 +13,10 @@ dictionary = {}
 
 #main game function
 def madlib():
+    #this will print the title welcome message
+    print "Welcome to Elimaries MadLib game!"
+    #this will ask user to input his name
+    name = raw_input("Enter your Name:")
 
 
 dictionary['hobbie1'] = raw_input("Enter your favorite hobby:")
