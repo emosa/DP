@@ -27,12 +27,13 @@ def madlib():
 
     #this wil add hobbies to dictionary aray objects
     dictionary['hobbie1'] = raw_input("Enter your favorite hobby:")
-    dictionary['hobbie2'] = raw_input("Enter your second hobby")
+    dictionary['hobbie2'] = raw_input("Enter your second hobby:")
 
     #this will ask the average distance from the user travel to work
-    distance = float(raw_input("Which is your mile average distance commute to work"))
+    distance = float(raw_input("Which is your mile average distance commute to work:"))
 
-
+    #this will ask user for hour number
+    time = float(raw_input("How many hours have you been awake today?:"))
 
 
 
