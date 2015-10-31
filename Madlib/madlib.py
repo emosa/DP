@@ -11,6 +11,9 @@
 #this will store user input
 dictionary = {}
 
+#main game function
+def madlib():
+
 
 dictionary['hobbie1'] = raw_input("Enter your favorite hobby:")
 dictionary['hobbie2'] = raw_input("Enter your second hobby")
