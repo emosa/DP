@@ -12,6 +12,10 @@
 dictionary = {}
 
 
+dictionary['hobbie1'] = raw_input("Enter your favorite hobby:")
+dictionary['hobbie2'] = raw_input("Enter your second hobby")
+
+
 
 
 
