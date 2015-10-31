@@ -11,6 +11,9 @@
 #this will store user input
 dictionary = {}
 
+#this will store my suggestion
+suggest = ["go back to your room", "and take a nap"]
+
 #main game function
 def madlib():
     #this will print the title welcome message
