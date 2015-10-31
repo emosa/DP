@@ -14,6 +14,12 @@ dictionary = {}
 #this will store my suggestion
 suggest = ["go back to your room", "and take a nap"]
 
+#this will calculate time
+def calculate(distance,time):
+    return "Well you have been awake for the last %.0f(hours) %.0f(m) " \
+           "now go get some sleep you only have %.0fm/h!" % \
+           (distance, time, distance / time)
+
 #main game function
 def madlib():
     #this will print the title welcome message
@@ -47,6 +53,9 @@ def madlib():
     else:
         print "you guys are to old to", dictionary['hobbie1']
     print "you guys should:"
+    for string in suggest:
+        print string
+
 
 
 
