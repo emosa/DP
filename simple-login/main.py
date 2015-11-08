@@ -41,6 +41,14 @@ class MainHandler(webapp2.RequestHandler): #declarin a class
                      </body>
                      </html>'''
 
+        if self.request.Get:
+            #This will store info requested from the form
+            name=self.request.GET['name']
+            email=self.request.GET['email']
+            age=self.request.GET['age']
+            sex=self.request.GET['gpa']
+
+
 
 
 
