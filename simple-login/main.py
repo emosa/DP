@@ -49,7 +49,8 @@ class MainHandler(webapp2.RequestHandler): #declarin a class
             sex=self.request.GET['sex']
             gpa=self.request.GET['gpa']
             self.response.write('Name:' + name+'<br>Email: ' +email+ '<br> Age: ' +age+ '<br>Sex: ' +sex+ 'Gpa: '+gpa+'<br><br>'+page_head +page_body+page_close) #this will print output
-        
+        else:
+            self.response.write(page_head+page_body+page_close)
 
 
 
