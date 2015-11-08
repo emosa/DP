@@ -16,7 +16,7 @@ class MainHandler(webapp2.RequestHandler):  # declaring a class
             <html>
              <head>
                 <meta charset="UTF-8">
-                <title>Patient Information Form</title>
+                <title>Student Information Form</title>
             </head>
             <body>
                     '''

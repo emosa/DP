@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="794cf7b9-437d-4f73-a777-38dd438b9a9e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simple-login/practice.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-login/main.py" afterPath="$PROJECT_DIR$/simple-login/main.py" />
     </list>
     <ignored path="DPWP.iws" />
@@ -33,8 +29,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/simple-login/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8219585">
-              <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.40059346">
+              <caret line="18" column="43" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -63,9 +59,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="694" />
+    <option name="x" value="683" />
     <option name="y" value="23" />
-    <option name="width" value="697" />
+    <option name="width" value="746" />
     <option name="height" value="794" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -326,7 +322,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="694" y="23" width="697" height="794" extended-state="0" />
+    <frame x="683" y="23" width="746" height="794" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1426087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -437,8 +433,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/simple-login/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8219585">
-          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.40059346">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="47" />
           <folding />
         </state>
       </provider>
