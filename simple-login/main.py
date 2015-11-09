@@ -36,7 +36,7 @@ body  {
 form {
     position:relative;
     margin:50px auto;
-    width:680px;
+    width:480px;
     padding:33px 25px 29px;
     background:#002D40;
     color:#FDFDFD;
