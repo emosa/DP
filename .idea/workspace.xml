@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="794cf7b9-437d-4f73-a777-38dd438b9a9e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-login/app.yaml" afterPath="$PROJECT_DIR$/simple-login/app.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-login/mainHandler.py" afterPath="$PROJECT_DIR$/simple-login/mainHandler.py" />
     </list>
     <ignored path="DPWP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +29,8 @@
       <file leaf-file-name="mainHandler.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/simple-login/mainHandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.09259259">
-              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.32407406">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -420,8 +419,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/simple-login/mainHandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09259259">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.32407406">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding />
         </state>
       </provider>
