@@ -1,0 +1,15 @@
+'''
+ELIMARIE MORALES SANTIAGO
+FULL SAIL UNIVERSITY
+Design Patterns for Web Programming - Online
+Reusable Library
+
+'''
+
+import page, lib
+c = page.connect()  # this will create object for connect class
+while True:
+    if c.data() == "POST":
+        grades = c.grades()
+        call = lib.Grade(grades[0], grades[1],grades[2], grades[3], grades[4], grades[5], grades[6], grades[7], grades[8],grades[9])
+
