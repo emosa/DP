@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="794cf7b9-437d-4f73-a777-38dd438b9a9e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Reusable Library/reusable-library/lib.py" afterPath="$PROJECT_DIR$/Reusable Library/reusable-library/lib.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Reusable Library/reusable-library/page.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DPWP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,11 +40,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lib.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lib.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Reusable Library/reusable-library/lib.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.86153847">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Reusable Library/reusable-library/page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.25384617">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -69,8 +79,9 @@
         <option value="$PROJECT_DIR$/simple-login/main.py" />
         <option value="$PROJECT_DIR$/simple-login/mainHandler.py" />
         <option value="$PROJECT_DIR$/simple-login/lib.py" />
-        <option value="$PROJECT_DIR$/Reusable Library/reusable-library/lib.py" />
         <option value="$PROJECT_DIR$/Reusable Library/reusable-library/mainHandler.py" />
+        <option value="$PROJECT_DIR$/Reusable Library/reusable-library/lib.py" />
+        <option value="$PROJECT_DIR$/Reusable Library/reusable-library/page.py" />
       </list>
     </option>
   </component>
@@ -360,9 +371,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="550" y="23" width="825" height="794" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1977612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1977612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3974359" sideWeight="0.50691825" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -524,8 +535,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Reusable Library/reusable-library/lib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.86153847">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reusable Library/reusable-library/page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25384617">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
