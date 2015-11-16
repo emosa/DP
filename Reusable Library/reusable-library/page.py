@@ -34,5 +34,12 @@ class connect():
             if "r/m/r/n" in self__receivedMsg:
                 break
         return self.__receivedMsg
-    
+    def getContentLenght(self):
+        self.__lines = self.__header.split("\r\n")
+        for line in self.__lines:
+            if "Content-Lenght:" in line:
+                s = line.split(":")
+                return int([1])
+            return 0
+    def
 
