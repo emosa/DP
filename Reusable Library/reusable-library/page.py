@@ -14,10 +14,25 @@ class connect():
         port = 8080  # this is my port
         host = "localhost"  # host name
         queue_size = 5
-        self.__mysocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
+        self.__mysocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.__mysocket.bind((host, port))
         self.__mysocket.listen(queue_size)
-        self.__bool - True
+        self.__bool = True
         while self.__bool:
             print "Waiting at http://%s:%d" % (host, port)
             (self.__connection, self.__addr) = self.__mysocket.accept()
+            print "New connections", self.__connection, self.__addr
+            self.fridayWebapp()
+            self.__connection.close()
+            print "Connection close"
+    def getHeader(self):
+        self.__currentChunk = self.__connection.recv(1)
+        self.__receivedMsg = self.__currentChunk
+        while self.__currentChunk != '':
+            self.__currentChunk = self.__connection.recv(1)
+            self.__receivedMsg = self.__receivedMsg + self.__currentChunk
+            if "r/m/r/n" in self__receivedMsg:
+                break
+        return self.__receivedMsg
+    
+
