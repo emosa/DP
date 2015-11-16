@@ -41,5 +41,22 @@ class connect():
                 s = line.split(":")
                 return int([1])
             return 0
-    def
+    def getBody(self):
+        return self.__connection.recv(self.contentLenght)
+    def send(self,a,b,c):
+        self.__connection.send("HTTP/1.0 200 OK\n")
+        self.__connection.send("Content-Type: text/html\n")
+        self.__connection.send("\n")
+        self.__connection.send("Average=" + str(a))
+        self.__connection.send("\n")
+        self.__connection.send("\nMedian=" + str(b))
+        self.__connection.send("\n")
+        self.__connection.send("\nHighest Score=" + str(c))
+
+
+
+
+
+
+
 
