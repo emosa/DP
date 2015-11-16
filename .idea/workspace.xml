@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="794cf7b9-437d-4f73-a777-38dd438b9a9e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Reusable Library/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Reusable Library/reusable-library/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/simple-login/mainHandler.py" afterPath="$PROJECT_DIR$/Reusable Library/reusable-library/mainHandler.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Reusable Library/reusable-library/lib.py" afterPath="$PROJECT_DIR$/Reusable Library/reusable-library/lib.py" />
     </list>
     <ignored path="DPWP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/Reusable Library/reusable-library/lib.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.25384617">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -537,7 +534,7 @@
     <entry file="file://$PROJECT_DIR$/Reusable Library/reusable-library/lib.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25384617">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="44" />
           <folding />
         </state>
       </provider>
