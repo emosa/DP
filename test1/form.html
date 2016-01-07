@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Student Information Form</title>
+<link type="text/css" rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+ <form method = "GET" id="form">
+
+        <h1 class="form-title">Student Information</h1>
+            <label>Name: </label><br><input type="text" name="name" required /><br><br>
+            <label>Email: </label><br><input type="text" name="email" required /><br><br>
+            <label>Age: </label><br> <input type="text" name="age" required /><br><br>
+            <label>University: </label><br><input type="text" name="university" required /><br><br>
+            <label>Sex: </label>
+             <div class="controls">
+                 <input type="radio" name="sex" value="male">Male<br>
+                 <input type="radio" name="sex" value="Female">Female<br><br>
+
+            </div>
+            <label>Gpa:</label>
+            <br><select id="select" name="gpa">
+                <option value="From 5.00 to 4.00">From 5.00 to 4.00</option>
+                <option value="From 4.00 to 3.00">From 4.00 to 3.00</option>
+                <option value="From 3.00 to 2.00">From 3.00 to 2.00</option>
+                <option value="From 2.00 to 1.00">From 2.00 to 1.00</option><br><br>
+                <input class="button" type="submit" value="Submit">
+  </form>
+</body>
+</html>

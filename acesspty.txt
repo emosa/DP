@@ -1,0 +1,24 @@
+Last login: Thu Oct 29 22:01:19 on ttys000
+You have mail.
+ELIMARIEs-MBP:~ iglitzi$ phyton --version
+-bash: phyton: command not found
+ELIMARIEs-MBP:~ iglitzi$ phyton -version
+-bash: phyton: command not found
+ELIMARIEs-MBP:~ iglitzi$ python --version
+Python 2.7.10
+ELIMARIEs-MBP:~ iglitzi$ python
+Python 2.7.10 (v2.7.10:15c95b7d81dc, May 23 2015, 09:33:12) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 2+2
+4
+>>> "Hello, ""there"
+'Hello, there'
+>>> first_name= "eli"
+>>> fist_name="eli"; last_name= "morales"; first_name+last_name
+'elimorales'
+>>> exit()
+ELIMARIEs-MBP:~ iglitzi$ cd /Users/iglitzi/Desktop/DPWP/Intro\ to\ Python 
+ELIMARIEs-MBP:Intro to Python iglitzi$ python main.py
+hello wold
+ELIMARIEs-MBP:Intro to Python iglitzi$ 
