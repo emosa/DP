@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body  {
+    font:100%/1.5 Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color:#FFF;
+    width:960px;
+    margin:26px auto;
+	background:#2081B1;
+}
+
+h1, h4 {
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	color:#25948d;
+}
+
