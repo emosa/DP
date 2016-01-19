@@ -1,0 +1,231 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body  {
+    font:100%/1.5 Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color:#FFF;
+    width:960px;
+    margin:26px auto;
+	background:fff;
+}
+
+h1, h4 {
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	color:#25948d;
+}
+
+.logo {
+	margin-bottom: 5px;
+	margin-top:0px;
+	padding-right:425px;
+	padding-bottom:20px;
+	align: top;
+	height: 250px;
+	width:250px;
+	background-color:transparent;
+	
+}
+
+.header4{
+	padding:10px;
+	background-color:#eae006;
+	font-weight:300;
+	color:#002D40;
+    text-shadow:1px 1px 0 #ABA2A3;
+}
+
+.logo_wrapper {
+    height: 100px;
+    float: left;
+	background-color:transparent;
+	
+}
+
+#nav {
+	font: bold 14px/1.5em Verdana;
+    float:right;
+    width:100%;
+    background:#FFFFFF;
+    font-size:93%;
+    line-height:normal;
+	align-content:center;
+	padding-right:330px !important;
+}
+
+#nav ul {
+	margin:0;
+	padding:10px 10px 0 50px;
+	list-style:none;
+}
+
+#nav li {
+    display:inline;
+    margin:0;
+    padding:0;
+}
+
+#nav a {
+    float:right;
+    background:url("../img/tab1.gif") no-repeat left top;
+    margin:0;
+    padding:0 0 0 4px;
+    text-decoration:none;
+}
+
+#nav a span {
+    float:right;
+    display:block;
+    background:url("../img/tab2.gif") no-repeat right top;
+    padding:10px 15px 4px 6px;
+    color:#464E42;
+}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+
+#nav a span {
+	float:none;
+}
+
+/* End IE5-Mac hack */
+
+#nav a:hover span {
+    color:#FFF;
+}
+
+#nav a:hover {
+    background-position:0% -42px;
+}
+
+#nav a:hover span {
+    background-position:100% -42px;
+}  
+
+img {
+	display: block;
+    width: 100%;
+    height: auto;
+	border-radius: 30px 30px 0px 0px;
+	-moz-border-radius: 30px 30px 0px 0px;
+	-webkit-border-radius: 30px 30px 0px 0px;
+	
+}
+
+#section {
+ 	padding:10px;
+	align-content:center;
+	background:url(../img/gplaypattern.png) 
+	
+}
+
+#footer {
+    background-color:#25948d;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+
+
+
+form {
+    position:relative;
+    margin:50px auto;
+    width:380px;
+    padding:33px 25px 29px;
+    color:#065F98;
+    border-radius:5px;
+	
+}
+
+title {
+    margin:-25px -25px 25px;
+    padding:15px 25px;
+    line-height:35px;
+    font-size:26px;
+    font-weight:300;
+    color:#002D40;
+    text-align:center;
+    text-shadow:1px 1px 0 #ABA2A3;
+    background:#75D6FF
+}
+
+input, #select {
+    font-family:inherit;
+    color:inherit;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+	width:100%;
+    height:50px;
+    margin-bottom:25px;
+    padding:0 15px 2px;
+    font-size:17px;
+    color:#000;
+    background:#fff;
+    border:2px solid #25948d;
+    border-radius:4px;
+    -webkit-box-shadow:inset 0 -2px #25948d;
+    box-shadow:inset 0 -2px #25948d;
+    line-height:48px
+}
+
+.controls input {
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 20px;
+    margin: 0 auto 5px
+}
+
+.button {
+    width: 100%;
+    text-align:center  !important;
+    cursor:pointer;
+    background:#23A3DA;
+    background-image:-webkit-linear-gradient(top,#25948d,#03171F);
+    background-image:-moz-linear-gradient(top,#25948d,#03171F);
+    background-image:-ms-linear-gradient(top,#25948d,#03171F);
+    background-image:-o-linear-gradient(top,#25948d,#03171F);
+    background-image:linear-gradient(to bottom,#25948d,#03171F);
+    -webkit-border-radius:5;
+    -moz-border-radius:5;
+    border-radius:5px;
+    -webkit-box-shadow:1px 1px 1px #666;
+    -moz-box-shadow:1px 1px 1px #666;
+    box-shadow:1px 1px 1px #666;
+    font-family:Arial;
+    color:#fff;
+    font-size:25px;
+    padding:2px 10px 10px 10px;
+    text-decoration:none
+}
+
+.button:hover {
+    background:#E3A019;
+    background-image:-webkit-linear-gradient(top,#E3A019,#E3A019);
+    background-image:-moz-linear-gradient(top,#E3A019,#E3A019);
+    background-image:-ms-linear-gradient(top,#E3A019,#E3A019);
+    background-image:-o-linear-gradient(top,#E3A019,#E3A019);
+    background-image:linear-gradient(to bottom,#E3A019,#E3A019);
+    text-decoration:none
+}
+
+.form-title {
+    margin:-25px -25px 25px;
+    padding:15px 25px;
+    line-height:35px;
+    font-size:36px;
+    font-weight:300;
+    color:#002D40;
+    text-align:center;
+    text-shadow:1px 1px 0 #ABA2A3;
+}
+
+a:link {
+    text-decoration: none;
+	color:#117FA8;
+}
+
+
