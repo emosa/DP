@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+			<title>{self.title}</title>
+				<link rel="stylesheet" href="css/{self.css}">
+	</head>
+
+<body>
+   <div class="logo">
+     <img src="img/logo.png" alt="Logo"></div>
+
+            <div class="header4">
+            	<center><h1>Happy Pets Contest Subscription</h1></center>
+                	<center><h3>Please fill out the form below.</h3></center>
+            </div>
+
+            <div id="section">
+
+			<form method = "GET" id="form">
+
+           		<h1 class="form-title">Pet Information</h1>
+                	<label>Name:</label><br><input type="text" name="name" required /><br>
+                    <label>Breed: </label><br><input class="city" type="text" name="breed" required /><br>
+                    <label>Age:</label><br> <input type="number" name="age" required /><br>
+                    <label>Gender:</label><br><br>
+                <div class="controls" >
+                	<input type="radio" name="gender" value="Male">Male<br>
+                	<input type="radio" name="gender" value="Female">Female<br>
+                </div>
+				<br>
+                <label>Select contest category:</label><br>
+                	<br><select id="select" name="category">
+                   	<option value="Best Trick">Best Trick</option>
+                  	<option value="Best Kisser">Best Kisser</option>
+                   	<option value="Best Tail Wagger">Best Tail Wagger</option>
+                    <option value="Most Clever">Most Clever</option></select><br><br>
+                    <label>Email:</label><br><input type="text" name="email" required /><br>
+                    	<input class="button" type="submit" value="Submit">
+           	</form>
+            </div>
+</body>
+	<div id="footer">
+       <p> Copyright © Elimarie Morales Santiago </p>
+    </div>
+</html>
