@@ -1,0 +1,129 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body  {
+    font:100%/1.5 Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color:#C69E22;
+    width:960px;
+    margin:2px auto;
+	background:url(../img/background.png) 
+}
+
+h1 {
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	color:#25948d;
+	text-align:center;
+	
+}
+
+h2{
+	text-align:center;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+
+.logo {
+	background-color:transparent;
+	width: 380px;
+	height: 176px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+		
+}
+
+.logo_wrapper {
+    height: 5px;
+	background-color:transparent;
+	display: block; 
+}
+
+.image{
+	width: 500px;
+	height: 340px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image_container img {
+   vertical-align: middle;
+ }
+
+.gems{
+	height: auto;
+	width: 100%;
+	padding-top: 20px;
+}
+
+#nav {
+	font: bold Verdana;
+    background: none;
+    font-size: 24px;
+    line-height:normal;
+	display: block;
+	padding-top: 180px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#nav ul {
+	margin: auto;
+	padding:10px 10px 0 50px;
+	list-style:none;
+}
+
+#nav li {
+    display:inline;
+    margin: 25px;
+    padding: 10px 20px 10px 20px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f0b7a1+0,4d2e15+50,bf6e4e+100 */
+
+	background: #f0b7a1; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f0b7a1 0%, #4d2e15 50%, #bf6e4e 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #f0b7a1 0%,#4d2e15 50%,#bf6e4e 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #f0b7a1 0%,#4d2e15 50%,#bf6e4e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=0 ); /* IE6-9 */
+
+}
+
+img {
+    width: 100%;
+}
+
+p {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:20px;
+	color:#c69c6d;
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+#footer {
+    background-color:#25948d;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:2px;	 	 
+}
+
+a:link {
+    text-decoration: none;
+	color:rgba(234,228,89,1.00);
+}
+
+a:visited {
+	text-decoration: none;
+	color:rgba(49,183,197,1.00);
+}
+
+a:active {
+	text-decoration: none;
+	color:rgba(41,191,200,1.00);
+}
+a:hover {
+	text-decoration: none;
+	color:#C69E22;
+}

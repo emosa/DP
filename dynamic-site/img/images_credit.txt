@@ -1,0 +1,16 @@
+Amethyst.jpg
+Opal.jpg
+Ammolite.png
+Diamond.png
+tourmaline.png
+
+This files are licensed under the Creative Commons Attribution-Share Alike 3.0 Unported license.
+
+diamond = Gemstone()
+        amethyst.name = "The "
+        amethyst.bio = ""
+        amethyst.origin = ""
+        amethyst.story = ""
+        amethyst.locations = ""
+        amethyst.colors = ""
+        amethyst.img = "img/diamond.png"
